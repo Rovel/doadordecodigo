@@ -14,6 +14,11 @@ gem 'sass-rails',        '~> 5.0'
 gem 'uglifier',          '>= 1.3.0'
 
 gem 'bootstrap-sass', '~> 3.3.5'
+#oauth
+gem 'omniauth'
+gem 'omniauth-twitter'
+gem 'omniauth-facebook'
+gem 'omniauth-github'
 
 group :development, :test do
   gem 'byebug',      '~> 6.0.2'
